@@ -1,0 +1,93 @@
+[14-Feb-2020 10:10:04 UTC] PHP Notice:  Undefined variable: foto_profile in /home/heineken/public_html/header_main.php on line 50
+[14-Feb-2020 10:10:04 UTC] PHP Notice:  Undefined variable: user in /home/heineken/public_html/header_main.php on line 50
+[14-Feb-2020 10:10:04 UTC] PHP Notice:  Undefined variable: user in /home/heineken/public_html/header_main.php on line 54
+[14-Feb-2020 10:10:04 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 13
+[14-Feb-2020 10:10:04 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 13
+[14-Feb-2020 10:10:04 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 58
+[14-Feb-2020 10:10:04 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 58
+[14-Feb-2020 10:10:04 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 80
+[14-Feb-2020 10:10:04 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 80
+[14-Feb-2020 10:10:04 UTC] PHP Notice:  Undefined variable: conn in /home/heineken/public_html/sidebar.php on line 118
+[14-Feb-2020 10:10:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/heineken/public_html/sidebar.php:118
+Stack trace:
+#0 /home/heineken/public_html/index.php(227): include()
+#1 {main}
+  thrown in /home/heineken/public_html/sidebar.php on line 118
+[14-Feb-2020 12:12:34 UTC] PHP Notice:  Undefined variable: foto_profile in /home/heineken/public_html/header_main.php on line 50
+[14-Feb-2020 12:12:34 UTC] PHP Notice:  Undefined variable: user in /home/heineken/public_html/header_main.php on line 50
+[14-Feb-2020 12:12:34 UTC] PHP Notice:  Undefined variable: user in /home/heineken/public_html/header_main.php on line 54
+[14-Feb-2020 12:12:34 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 13
+[14-Feb-2020 12:12:34 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 13
+[14-Feb-2020 12:12:34 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 58
+[14-Feb-2020 12:12:34 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 58
+[14-Feb-2020 12:12:34 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 80
+[14-Feb-2020 12:12:34 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 80
+[14-Feb-2020 12:12:34 UTC] PHP Notice:  Undefined variable: conn in /home/heineken/public_html/sidebar.php on line 118
+[14-Feb-2020 12:12:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/heineken/public_html/sidebar.php:118
+Stack trace:
+#0 /home/heineken/public_html/index.php(227): include()
+#1 {main}
+  thrown in /home/heineken/public_html/sidebar.php on line 118
+[14-Feb-2020 19:12:11 UTC] PHP Notice:  Undefined variable: foto_profile in /home/heineken/public_html/header_main.php on line 50
+[14-Feb-2020 19:12:11 UTC] PHP Notice:  Undefined variable: user in /home/heineken/public_html/header_main.php on line 50
+[14-Feb-2020 19:12:11 UTC] PHP Notice:  Undefined variable: user in /home/heineken/public_html/header_main.php on line 54
+[14-Feb-2020 19:12:11 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 13
+[14-Feb-2020 19:12:11 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 13
+[14-Feb-2020 19:12:11 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 58
+[14-Feb-2020 19:12:11 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 58
+[14-Feb-2020 19:12:11 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 80
+[14-Feb-2020 19:12:11 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 80
+[14-Feb-2020 19:12:11 UTC] PHP Notice:  Undefined variable: conn in /home/heineken/public_html/sidebar.php on line 118
+[14-Feb-2020 19:12:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/heineken/public_html/sidebar.php:118
+Stack trace:
+#0 /home/heineken/public_html/index.php(227): include()
+#1 {main}
+  thrown in /home/heineken/public_html/sidebar.php on line 118
+[14-Feb-2020 19:14:21 UTC] PHP Warning:  include(eq_list.php): failed to open stream: No such file or directory in /home/heineken/public_html/index.php on line 317
+[14-Feb-2020 19:14:21 UTC] PHP Warning:  include(eq_list.php): failed to open stream: No such file or directory in /home/heineken/public_html/index.php on line 317
+[14-Feb-2020 19:14:21 UTC] PHP Warning:  include(): Failed opening 'eq_list.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/heineken/public_html/index.php on line 317
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: foto_profile in /home/heineken/public_html/header_main.php on line 50
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: user in /home/heineken/public_html/header_main.php on line 50
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: user in /home/heineken/public_html/header_main.php on line 54
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 13
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 13
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 58
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 58
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 80
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 80
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: conn in /home/heineken/public_html/sidebar.php on line 118
+[14-Feb-2020 19:17:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/heineken/public_html/sidebar.php:118
+Stack trace:
+#0 /home/heineken/public_html/index.php(227): include()
+#1 {main}
+  thrown in /home/heineken/public_html/sidebar.php on line 118
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: foto_profile in /home/heineken/public_html/header_main.php on line 50
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: user in /home/heineken/public_html/header_main.php on line 50
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: user in /home/heineken/public_html/header_main.php on line 54
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 13
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 13
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 58
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 58
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 80
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 80
+[14-Feb-2020 19:17:46 UTC] PHP Notice:  Undefined variable: conn in /home/heineken/public_html/sidebar.php on line 118
+[14-Feb-2020 19:17:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/heineken/public_html/sidebar.php:118
+Stack trace:
+#0 /home/heineken/public_html/index.php(227): include()
+#1 {main}
+  thrown in /home/heineken/public_html/sidebar.php on line 118
+[14-Feb-2020 21:38:41 UTC] PHP Notice:  Undefined variable: foto_profile in /home/heineken/public_html/header_main.php on line 50
+[14-Feb-2020 21:38:41 UTC] PHP Notice:  Undefined variable: user in /home/heineken/public_html/header_main.php on line 50
+[14-Feb-2020 21:38:41 UTC] PHP Notice:  Undefined variable: user in /home/heineken/public_html/header_main.php on line 54
+[14-Feb-2020 21:38:41 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 13
+[14-Feb-2020 21:38:41 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 13
+[14-Feb-2020 21:38:41 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 58
+[14-Feb-2020 21:38:41 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 58
+[14-Feb-2020 21:38:41 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 80
+[14-Feb-2020 21:38:41 UTC] PHP Notice:  Undefined variable: category in /home/heineken/public_html/sidebar.php on line 80
+[14-Feb-2020 21:38:41 UTC] PHP Notice:  Undefined variable: conn in /home/heineken/public_html/sidebar.php on line 118
+[14-Feb-2020 21:38:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/heineken/public_html/sidebar.php:118
+Stack trace:
+#0 /home/heineken/public_html/index.php(227): include()
+#1 {main}
+  thrown in /home/heineken/public_html/sidebar.php on line 118
