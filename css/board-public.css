@@ -1,0 +1,238 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+}
+.main-content{
+  margin-top: 20px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+  line-height: 70px; /* Vertically center the text there */
+  background-color: #262626;
+}
+.comments-marquee{
+  line-height: 70px; 
+  height: 70px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.comments-marquee ul{
+  list-style: none;
+  margin-left: 0px;
+}
+
+.item-card{
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+.item-card img{
+  height: 120px;
+}
+.navbar-brand {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-brand img{
+  max-width: 200px;
+}
+.navbar-brand span{
+  font-size: 40px;
+  padding-top: 9px;
+  padding-left: 20px;
+  font-weight: 200;
+}
+.btn-board{
+  width:100%; 
+  background: #0cb149 !important; 
+  color: #fff; 
+  font-size: 14px !important;
+  margin: 2px;
+  border-radius: 0px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.btn-board:hover{
+  color: #fff !important;
+  background: #05993d !important;
+}
+.tableClass {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.tableClass td{
+  white-space: nowrap;
+}
+
+.tableClass td, .tableClass th {
+  border: 1px solid #ddd;
+  padding: 15px;
+  font-size:11px;
+  text-align: center;
+}
+
+.tableClass tr:nth-child(even){background-color: #f2f2f2;}
+
+.tableClass tr:hover {background-color: #ddd;}
+
+.tableClass th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #008c2b;
+  color: white;
+  line-height: 15px;
+  text-align: center;
+  position: sticky;
+  top: 130px;
+  z-index: 1;
+  cursor:pointer;
+}
+.tableClass th.green-weak{
+  background: #02a635;
+  border: 1px solid #02a635;
+  /*
+  background-image:url(images/white-unsorted.gif);
+  background-position:center right;
+  background-repeat:no-repeat;
+  background-origin: content-box;
+  */
+}
+
+.tableClass th.green-strong{
+  background: #008c2b;
+  border: 1px solid #008c2b;
+  /*
+  background-image:url(images/white-unsorted.gif);
+  background-position:center right;
+  background-repeat:no-repeat;
+  background-origin: content-box;
+  */
+}
+.tableClass td.success-cell{
+  background-color: #02a635;
+  color: #fff;
+}
+.tableClass td.success-cell:hover{
+  background-color: #027e29;
+  color: #fff;
+}
+.tableClass td.danger-cell{
+  background-color: #cc0000;
+  color: #fff;
+}
+.tableClass td.danger-cell:hover{
+  background-color: #990000;
+  color: #fff;
+}
+.tableClass td.normal-cell{
+  background-color: none;
+  color: #000;
+}
+
+.iconLabel {
+    position: relative;
+    top: 0px;
+    padding-left: 4px;
+}
+.menu-hide{
+  display: none;
+}
+.buttons-menu{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: flex-end; 
+  align-items: center;
+}
+.success-cell{
+  background-color: #02a635;
+  color: #fff;
+}
+
+.danger-cell{
+  background-color: #cc0000;
+  color: #fff;
+}
+.normal-cell{
+  background-color: none;
+  color: #000;
+}
+
+
+@media screen and (max-width: 1198px) {
+  .navbar-brand img{
+  max-width: 170px;
+  }
+  .navbar-brand span{
+    font-size: 26px;
+    padding-top: 6px;
+    padding-left: 20px;
+    font-weight: 200;
+  }
+  .main-content{
+    margin-top: 35px;
+  }
+  .tableClass th {
+    top: 150px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .products-list{
+    display:none;
+  }
+  .menu-hide{
+    display: block;
+  }
+  .buttons-menu{
+    display: none;
+  }
+  .main-content{
+    margin-top: -20px;
+  }
+  .tableClass th {
+    top: 90px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .products-list img{
+    height: 100px;
+  }
+}
+@media screen and (max-width: 496px) {
+  .navbar-brand img{
+    max-width: 96px;
+  }
+  .navbar-brand span{
+    font-size: 16px;
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container-fluid {
+  padding: 120px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}

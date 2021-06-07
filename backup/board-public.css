@@ -1,0 +1,210 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.outter {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: url(../img/brand/nuevos/back_a.jpg) no-repeat center bottom fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 20px;
+}
+
+.header {
+  background-color: none;
+  height: auto;
+}
+
+.flexitem{
+  border:1px solid red;
+  width: 100%;
+}
+
+.content {
+  height: calc(100% - 3em);  /* adjusted */
+  background-color: #fff;
+}
+
+.content-top10 {
+  height: calc(100% - 8em);  /* adjusted */
+  background-color: #fff;
+}
+
+.content-podium {
+  height: calc(100% - 8em);  /* adjusted */
+  background-color: none;
+}
+
+.interior-content{
+  background: green; 
+  padding:20px 40px 0px 40px; 
+  height: 100%;
+}
+
+.footerClass {
+  background: #262626;
+  height: 50px;
+  color: #fff;
+  font-size: 14px;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.comments-marquee{
+  line-height: 50px; 
+  height: 50px;
+  overflow: hidden;
+}
+
+.comments-marquee ul{
+  list-style: none;
+  margin-left: 0px;
+}
+
+.tableClass {
+  margin: 0px;
+  height: calc(100% - 1px); /* adjusted */
+  width: 100%; /* adjusted */
+  border: 1px solid #f1f1f1;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tableClass td.image-wrap{
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.tableClassTop10 {
+  margin: 0px;
+  height: calc(100% - 30px); /* adjusted */
+  width: 100%; /* adjusted */
+  border: 1px solid #f1f1f1;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tableClassTop10 td.image-wrap{
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.tableClassTop10 th, .tableClass th{
+  font-size:11px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.tableClassTop10 th.green-weak, .tableClass th.green-weak{
+  height: 50px;
+  background: #02a635;
+  border:1px solid #02a635;
+  color: #fff;
+  padding: 5px;
+}
+.tableClassTop10 th.green-strong, .tableClass th.green-strong{
+  height: 50px;
+  background: #008c2b;
+  border:1px solid #008c2b;
+  color: #fff;
+  padding: 5px;
+}
+
+.tableClassTop10 td, .tableClass td{
+    border: 1px solid #67ba82;
+    text-align: center;
+}
+.item-card{
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+.item-card img{
+  height: 120px;
+}
+.btn-board{
+  width:100%; 
+  background: #0cb149 !important; 
+  color: #fff; 
+  font-size:1em; 
+  font-size: 16px;
+  border:1px solid #fff;
+  border-radius: 0px;
+}
+.btn-board:hover{
+  color: #fff !important;
+  background: #05993d !important;
+}
+.btn-pagination{
+  color:#fff;
+  font-size:16px;
+}
+.btn-pagination:hover{
+  color:#fff;
+}
+.tableClassTop10 td.success-cell, .tableClass td.success-cell{
+  background-color: #02a635;
+  color: #fff;
+}
+.tableClassTop10 td.danger-cell, .tableClass td.danger-cell{
+  background-color: red;
+  color: #fff;
+}
+.tableClassTop10 td.normal-cell, .tableClass td.normal-cell{
+  background-color: none;
+  color: #000;
+}
+.topic-header{
+  justify-content: center; 
+  color: #fff; 
+  font-weight:700;
+}
+@media screen and (max-width: 1198px) {
+  .logo-board{
+    text-align: center;
+  }
+  .logo-board img{
+    width: 200px;
+  }
+  .board-title h1{
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .products-list img{
+    height: 80px;
+  }
+  .topic-header h1{
+    font-size: 15px;
+  }
+  .interior-content{
+    padding:20px 10px 0px 10px;
+  }
+  .btn-pagination{
+    color:#fff;
+    font-size:12px;
+  }
+
+}
+@media screen and (max-width: 994px) {
+  .products-list{
+    display:none;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .logo-board img{
+    width: 280px;
+  }
+  .products-list img{
+    height: 100px;
+  }
+}
